@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ECEFF1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/about_developer_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Muhammad Touhidul Islam"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/about_developer_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="mdtislam94@gmail.com\niMTILab.github.io"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/about_developer_b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customstyle_buttonclick"
+        android:text="Back to Home"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>

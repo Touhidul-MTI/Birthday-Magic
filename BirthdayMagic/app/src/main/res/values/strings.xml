@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BirthdayMagic</string>
+    <string name="aboutcalculation">Now, you can easily know your friend\'s birthday! To perform the magic trick, your friend may need a calculator to do some calculations for you. When everything is ready, click on PLAY button and follow the steps carefully.</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="magicsteps">Multiply</string>
+</resources>

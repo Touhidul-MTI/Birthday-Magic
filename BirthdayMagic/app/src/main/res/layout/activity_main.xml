@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ECEFF1">
+
+    <ScrollView
+        android:id="@+id/main_sv1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <RelativeLayout
+            android:id="@+id/main_rl2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/main_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutcalculation"
+                android:textSize="19dp"
+                android:textColor="#FFFFFF"
+                android:background="#FF7043"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/main_b1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Play Now"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#ECEFF1"
+                android:background="@drawable/customstyle_buttonclick"
+                android:layout_below="@id/main_tv1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick_main_b1"/>
+            <ImageView
+                android:id="@+id/main_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/birthdayicon"
+                android:layout_below="@id/main_b1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

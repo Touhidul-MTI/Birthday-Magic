@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.imti.birthdaymagic.GameA"
+    android:background="#ECEFF1">
+
+    <ScrollView
+        android:id="@+id/gamea_sv1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <RelativeLayout
+            android:id="@+id/gamea_rl1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:id="@+id/gamea_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STEP A"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:background="#448AFF"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/gamea_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:text="Multiply month number by 5\n(For example: month number is 1 for January, 12 for December and so on)."
+                android:textSize="22dp"
+                android:textColor="#FF7043"
+                android:textStyle="bold"
+                android:layout_below="@id/gamea_tv1"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/gamea_et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textColor="#2196F3"
+                android:textColorHint="#2196F3"
+                android:layout_below="@id/gamea_tv2"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:id="@+id/gamea_LL1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_below="@id/gamea_et1"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/gamea_b1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="BACK STEP"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#ECEFF1"
+                    android:background="@drawable/customstyle_buttonclick"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"/>
+                <Button
+                    android:id="@+id/gamea_b2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="NEXT STEP"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#ECEFF1"
+                    android:background="@drawable/customstyle_buttonclick"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/gamea_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loon2"
+                android:layout_below="@id/gamea_LL1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
